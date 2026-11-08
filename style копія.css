@@ -1,0 +1,76 @@
+body
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top right, rgb(90, 164, 210), rgb(50, 50, 171), rgb(114, 32, 155), rgb(165, 61, 218));
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card 
+{
+    width: 350px;
+    height: 400px;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+}
+.card h2
+{
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type="text"],
+input[type="password"]
+{
+    width: 300px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+}
+input[type="submit"]
+{
+        width: 300px;
+    height: 30px;
+     background: linear-gradient(to top right, rgb(170, 213, 239), rgb(140, 140, 245), rgb(207, 132, 244),rgb(209, 139, 244));
+     font-size: 20px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     color: white;
+     margin-left: 20px;
+}
+input[type="submit"]:hover
+{
+     background: linear-gradient(to top right, rgb(90, 164, 210), rgb(50, 50, 171), rgb(114, 32, 155), rgb(165, 61, 218));
+}
+.Forgot
+{
+    display: flex;
+    justify-content: space-between;
+      align-items: center;
+    margin: 10px 0;
+}
+.line
+{
+width: 350px;
+height: 2px;
+background-color: rgb(160, 151, 151);
+}
+.button
+{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(39, 205, 17);
+    border: none;
+    color: white;
+    margin-left: 90px;
+}
+.button:hover
+{
+    background-color:rgb(22, 141, 7);
+}

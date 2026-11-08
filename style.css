@@ -1,0 +1,78 @@
+body
+ {
+  background: rgb(190, 116, 219);
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+}
+.form-card 
+{
+  background: white;
+  width: 800px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.form-card h2 
+{
+  text-align: right;
+  margin-left: 320px;
+}
+.form-card form 
+{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 80px;
+  margin-top: -20px;
+}
+
+.inputs 
+{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.inputs input,
+.inputs textarea 
+{
+  width: 250px;
+  padding: 6px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: block;
+  margin: 0;
+}
+.inputs input[type="submit"] 
+{
+  width: 250px;
+  height: 34px;
+  background-color: rgb(193, 113, 215);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.inputs input[type="submit"]:hover 
+{
+  background-color: plum;
+}
+.inputs textarea
+ {
+  height: 120px;
+  resize: vertical;
+}
+.form-card form img 
+{
+  width: 350px;
+  height: 350px;
+  margin-top: 20px;
+   margin-right: 20px;
+}
